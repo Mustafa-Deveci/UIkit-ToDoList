@@ -10,7 +10,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         
         super.viewDidLoad()
-        self.tasks = UserDefaults.standard.stringArray(forKey: "items") ?? []
+        self.tasks = UserDefaults.standard.stringArray(forKey: "tasks") ?? []
         title = "To Do List"
         tableView.dataSource = self
         tableView.delegate = self
@@ -29,9 +29,9 @@ class ViewController: UIViewController {
                 if let text = field.text, !text.isEmpty {
                     
                     DispatchQueue.main.async {
-                        var currentItems = UserDefaults.standard.stringArray(forKey: "items") ?? []
+                        var currentItems = UserDefaults.standard.stringArray(forKey: "tasks") ?? []
                         currentItems.append(text)
-                        UserDefaults.standard.setValue(currentItems, forKey: "items")
+                        UserDefaults.standard.setValue(currentItems, forKey: "tasks")
                         
                         self?.tasks.append(text)
                         self?.tableView.reloadData()
