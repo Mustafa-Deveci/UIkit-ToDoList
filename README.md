@@ -1,6 +1,13 @@
 # UIkit-To-Do-List
-This project is a simple to-do list application written in the swift programming language. Tableview and alert were used.
+This project is a simple to-do list application written in the swift programming language w/UIkit. 
 ##
-<img width="250" alt="photo1" src="https://user-images.githubusercontent.com/79964936/209445381-e112e75c-73c1-421e-a10e-af7dea48be0b.png"><img width="250" alt="photo2" src="https://user-images.githubusercontent.com/79964936/209445400-369a6f7d-39e2-4dbd-b246-f8abf7284080.png">
+<img width="250" alt="photo1" src="https://user-images.githubusercontent.com/79964936/230778472-0f8347ac-504b-4654-a2db-b68bf9a1cbdf.png"><img width="250" alt="photo2" src="https://user-images.githubusercontent.com/79964936/230778497-a90b2d51-8581-403d-a61e-ba67f8d65cf2.png">
 ##
-<img width="250" alt="photo3" src="https://user-images.githubusercontent.com/79964936/209445403-3698b34d-3bec-4699-918f-09362336fec0.png"><img width="250" alt="photo4" src="https://user-images.githubusercontent.com/79964936/209445483-1bca11a9-62e7-47c3-9924-f8f81b5b0078.png">
+If you select the cancel option, the tick will be removed.
+#
+<img width="250" alt="photo3" src="https://user-images.githubusercontent.com/79964936/230778502-f686f2fd-5bff-4ba4-84ab-5d4f8d1e68fd.png"><img width="250" alt="photo4" src="https://user-images.githubusercontent.com/79964936/230778506-5e640548-932c-4670-abd8-42840cae9e34.png">
+##
+If you select the delete option, the deletion will be performed after waiting for 1 seconds.
+#
+<img width="250" alt="photo5" src="https://user-images.githubusercontent.com/79964936/230778507-2d172d2b-7ab5-43d4-b37c-149ce1aa672f.png">
+
