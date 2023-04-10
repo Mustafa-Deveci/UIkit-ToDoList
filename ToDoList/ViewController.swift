@@ -10,7 +10,6 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         
         super.viewDidLoad()
-        tableView.allowsMultipleSelectionDuringEditing = true
         self.tasks = UserDefaults.standard.stringArray(forKey: "items") ?? []
         title = "To Do List"
         tableView.dataSource = self
